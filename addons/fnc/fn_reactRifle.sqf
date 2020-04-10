@@ -4,20 +4,20 @@ if (_unit getVariable ["Salmon_HEAC_Rifle", ""] isEqualTo "") exitWith {};
 _unit getVariable "Salmon_HEAC_Rifle" params ["_weapon", "_attachments", "_rifleMag", "_glMag", "_whs"];
 
 _stand = {
-	_whs attachTo [_unit, [-0.05, 0.85, -0.25], "RightShoulder"];  
+	_whs attachTo [_unit, [-0.05, 0.85, -0.25], "RightShoulder"];
 	_whs setVectorDirAndUp [[-1,-5.21253e-016,-1.19249e-008],[0,1,-4.37114e-008]];
 	_whs setPos getPos _whs;
 	_unit setVariable ["Salmon_HEAC_Stance", stance _unit];
 };
 _crouch = {
-	_whs attachTo [_unit, [-0.05, 0.75, -0.3], "RightShoulder"];  
-	_whs setVectorDirAndUp [[-0.954885,-0.0423201,-0.293946],[0,0.989794,-0.142503]]; 
+	_whs attachTo [_unit, [-0.05, 0.75, -0.3], "RightShoulder"];
+	_whs setVectorDirAndUp [[-0.954885,-0.0423201,-0.293946],[0,0.989794,-0.142503]];
 	_whs setPos getPos _whs;
 	_unit setVariable ["Salmon_HEAC_Stance", stance _unit];
 };
 _prone = {
-	_whs attachTo [_unit, [0, -0.3, 0.5], "RightShoulder"];  
-	_whs setVectorDirAndUp [[0.905887,0.42352,0],[0,0,1]]; 
+	_whs attachTo [_unit, [0, -0.3, 0.5], "RightShoulder"];
+	_whs setVectorDirAndUp [[0.905887,0.42352,0],[0,0,1]];
 	_whs setPos getPos _whs;
 	_unit setVariable ["Salmon_HEAC_Stance", stance _unit];
 };

@@ -7,14 +7,14 @@ switch ( headgear _unit ) do {
     case "rhs_altyn" : {
 	    _unit addHeadgear "rhs_altyn_visordown";
 	};
-	
+
     case "rhsusf_hgu56p_black" : {
 	    _unit addHeadgear "rhsusf_hgu56p_mask_black";
 	};
     case "rhsusf_hgu56p_mask_black" : {
 	    _unit addHeadgear "rhsusf_hgu56p_black";
 	};
-		
+
     case "rhsusf_hgu56p_green" : {
 	    _unit addHeadgear "rhsusf_hgu56p_mask_green";
 	};
@@ -66,7 +66,7 @@ switch ( headgear _unit ) do {
     case "rhsusf_hgu56p_visor_mask_saf" : {
 	    _unit addHeadgear "rhsusf_hgu56p_visor_saf";
 	};
-	
+
     case "rhsusf_hgu56p_tan" : {
 	    _unit addHeadgear "rhsusf_hgu56p_mask_tan";
 	};
@@ -79,6 +79,6 @@ switch ( headgear _unit ) do {
     case "rhsusf_hgu56p_visor_mask_tan" : {
 	    _unit addHeadgear "rhsusf_hgu56p_visor_tan";
 	};
-	
+
 	default {hint "salmon_heac FAILED! Notify a moderator."};
 };

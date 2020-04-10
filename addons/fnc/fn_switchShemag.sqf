@@ -49,6 +49,6 @@ switch ( goggles _unit ) do {
     case "rhsusf_shemagh_grn" : {
 	    _unit addGoggles "rhsusf_shemagh2_grn";
 	};
-	
+
 	default {hint "salmon_heac FAILED! Notify a moderator."};
 };

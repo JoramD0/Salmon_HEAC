@@ -6,15 +6,15 @@ deleteVehicle _whs;
 _unit addWeapon _weapon;
 
 //remove mags autoloaded
-_magList = magazinesAmmoFull _unit; 
+_magList = magazinesAmmoFull _unit;
 private ["_rifleMagLoaded", "_glMagLoaded"];
-{ 
-	if (_x select 3 == 1) then { 
-		if (_x select 4 isEqualTo _weapon) then { 
-			_rifleMagLoaded = [_x select 0, _x select 1];  
-			} else { 
-			_glMagLoaded = [_x select 0, _x select 1];  
-		}; 
+{
+	if (_x select 3 == 1) then {
+		if (_x select 4 isEqualTo _weapon) then {
+			_rifleMagLoaded = [_x select 0, _x select 1];
+			} else {
+			_glMagLoaded = [_x select 0, _x select 1];
+		};
 	};
 } forEach _magList;
 if (count _rifleMagLoaded >= 1) then {
@@ -33,5 +33,5 @@ if (count _glMag >= 1) then {
 };
 {
 	_unit addPrimaryWeaponItem _x;
-} count _attachments; 
+} count _attachments;
 _unit forceWalk false;

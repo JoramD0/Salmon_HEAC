@@ -1,6 +1,6 @@
 params ["_unit"];
 
-switch ( headgear _unit ) do {	
+switch ( headgear _unit ) do {
     case "rhsusf_lwh_helmet_marpatwd" : {
 		if (goggles _unit isEqualTo "rhs_ess_black") then {
 			_unit addHeadgear "rhsusf_lwh_helmet_marpatwd_blk_ess";
@@ -34,7 +34,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhsusf_lwh_helmet_marpatd";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
     case "rhsusf_protech_helmet" : {
 	    _unit addHeadgear "rhsusf_protech_helmet_ess";
 		removeGoggles _unit;
@@ -51,7 +51,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhsusf_protech_helmet_rhino";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
     case "rhs_tsh4_bala" : {
 	    _unit addHeadgear "rhs_tsh4_ess_bala";
 		removeGoggles _unit;
@@ -68,7 +68,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhs_tsh4";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
 	case "rhs_altyn_novisor" : {
 	    _unit addHeadgear "rhs_altyn_novisor_ess";
 		removeGoggles _unit;
@@ -85,7 +85,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhs_altyn_novisor_bala";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
 	case "rhsusf_cvc_alt_helmet" : {
 	    _unit addHeadgear "rhsusf_cvc_ess";
 		removeGoggles _unit;
@@ -102,7 +102,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhsusf_cvc_green_alt_helmet";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
     case "rhsusf_ach_helmet_ucp" : {
 	    _unit addHeadgear "rhsusf_ach_helmet_ESS_ucp";
 		removeGoggles _unit;
@@ -135,7 +135,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhsusf_ach_helmet_ucp_alt";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
     case "rhsusf_ach_helmet_ocp" : {
 	    _unit addHeadgear "rhsusf_ach_helmet_ESS_ocp";
 		removeGoggles _unit;
@@ -185,7 +185,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhsusf_ach_bare_tan_headset";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
     case "rhsusf_ach_bare_semi" : {
 	    _unit addHeadgear "rhsusf_ach_bare_semi_ess";
 		removeGoggles _unit;
@@ -253,7 +253,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhsusf_ach_bare_headset";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
     case "rhs_6b7_1m_bala2_emr" : {
 	    _unit addHeadgear "rhs_6b7_1m_emr_ess_bala";
 		removeGoggles _unit;
@@ -279,7 +279,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhs_6b47";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
     case "rhs_6b28_flora" : {
 	    _unit addHeadgear "rhs_6b28_flora_ess";
 		removeGoggles _unit;
@@ -288,7 +288,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhs_6b28_flora";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
     case "rhs_6b28" : {
 	    _unit addHeadgear "rhs_6b28_ess";
 		removeGoggles _unit;
@@ -360,7 +360,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhs_6b28_green";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
     case "rhs_6b28_flora" : {
 	    _unit addHeadgear "rhs_6b28_flora_ess";
 		removeGoggles _unit;
@@ -387,7 +387,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhs_6b7_1m_bala1";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
     case "rhs_6b7_1m" : {
 	    _unit addHeadgear "rhs_6b7_1m_ess";
 		removeGoggles _unit;
@@ -396,7 +396,7 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhs_6b7_1m";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
     case "rhs_6b7_1m_bala2_emr" : {
 	    _unit addHeadgear "rhs_6b7_1m_emr_ess_bala";
 		removeGoggles _unit;
@@ -413,6 +413,6 @@ switch ( headgear _unit ) do {
 	    _unit addHeadgear "rhs_6b7_1m_emr";
 		_unit addGoggles "rhs_ess_black";
 	};
-	
+
 	default {hint "salmon_heac FAILED! Notify a moderator."};
 };

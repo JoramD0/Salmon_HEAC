@@ -4,11 +4,11 @@ _helmNaked = [
 	"rhs_6b26_green",
 
 	"rhs_6b26",
-	
+
 	"rhs_6b27m_green",
 
 	"rhs_6b27m_digi",
-	
+
 	"rhs_6b27m",
 
 	"rhs_6b27m_ml",
@@ -32,13 +32,13 @@ _helmNaked = [
 
 	"rhsusf_ach_bare_wood_headset",
 	"rhsusf_ach_bare_wood",
-	
+
 	"rhsusf_ach_bare_des_headset",
 	"rhsusf_ach_bare_des",
-	
+
 	"rhsusf_ach_bare_semi_headset",
 	"rhsusf_ach_bare_semi",
-	
+
 	"rhsusf_ach_bare_tan_headset",
 	"rhsusf_ach_bare_tan",
 
@@ -63,7 +63,7 @@ _helmNaked = [
 
 	"rhsusf_protech_helmet_rhino",
 	"rhsusf_protech_helmet",
-	
+
 	"rhsusf_lwh_helmet_marpatd",
 	"rhsusf_lwh_helmet_marpatwd_headset_blk2",
 	"rhsusf_lwh_helmet_marpatwd"
@@ -71,13 +71,13 @@ _helmNaked = [
 
 _helmEss = [
 	"rhs_6b26_ess_green",
-	
+
 	"rhs_6b26_ess",
-	
+
 	"rhs_6b27m_green_ess",
-	
+
 	"rhs_6b27m_digi_ess",
-	
+
 	"rhs_6b27m_ess",
 
 	"rhs_6b27m_ml_ess",
@@ -101,13 +101,13 @@ _helmEss = [
 
 	"rhsusf_ach_bare_des_headset_ess",
 	"rhsusf_ach_bare_des_ess",
-	
+
 	"rhsusf_ach_bare_headset_ess",
 	"rhsusf_ach_bare_ess",
 
 	"rhsusf_ach_bare_semi_headset_ess",
 	"rhsusf_ach_bare_semi_ess",
-	
+
 	"rhsusf_ach_bare_tan_headset_ess",
 	"rhsusf_ach_bare_tan_ess",
 
@@ -132,7 +132,7 @@ _helmEss = [
 
 	"rhsusf_protech_helmet_ess",
 	"rhsusf_protech_helmet_rhino_ess",
-	
+
 	"rhsusf_lwh_helmet_marpatd_ess",
 	"rhsusf_lwh_helmet_marpatwd_headset_blk",
 	"rhsusf_lwh_helmet_marpatwd_blk_ess"

@@ -1,6 +1,6 @@
 params ["_unit"];
 
-switch ( goggles _unit ) do {	
+switch ( goggles _unit ) do {
     case "rhsusf_shemagh2_gogg_white" : {
 	    _unit addGoggles "rhsusf_shemagh2_white";
 		if (_unit canAdd "rhsusf_oakley_goggles_blk") then {
@@ -81,7 +81,7 @@ switch ( goggles _unit ) do {
 			hint "No space. Goggles dropped.";
 		};
 	};
-	
+
     case "rhsusf_shemagh_grn" : {
 	    _unit addGoggles "rhsusf_shemagh_gogg_grn";
 		_unit removeItem "rhsusf_oakley_goggles_blk";
